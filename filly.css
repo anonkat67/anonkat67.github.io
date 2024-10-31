@@ -1,0 +1,125 @@
+body{
+    background-color: #BDC0C2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    position: relative;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap: wrap;
+    margin: 50px 20%;
+    background-color: gray;
+}
+
+br{
+    max-height: 300px;
+}
+
+.hello{
+    position: absolute;
+    top: -40px; 
+    left: 400px;
+
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+
+img{
+    max-width: 400px;
+    max-height: 400px;
+
+}
+
+h3{
+    font-size: 30px;
+    color:azure;
+    font-weight: bold;
+    margin: 40px 40px;
+}
+
+
+p{
+    font-size: 15px;
+    color:azure;
+    font-weight: bold;
+}
+
+.bottom{
+    display: flex;
+    margin: 10px 20%;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+
+
+    .edit-button{
+        background-color: #2b2b2b;
+        color:white;
+        height: 35px;
+        width: 60px;
+        border: none;
+        justify-content: center;
+        text-align: center;
+        padding-top:5px;
+        border-radius: 4px;
+        margin-right: 10px;
+
+
+    }
+
+    .export-button {
+        background-color: #2b2b2b; 
+        color: #fff; 
+        padding: 5px 15px; 
+        border: none; 
+        border-radius: 4px; 
+        cursor: pointer; 
+        height: 30px
+    }
+}
+
+.metadata{
+    padding:0px;
+    margin: 0px;
+    text-align: right;
+    width: 200px;
+    height: 150px;
+    font-size: 15px;
+    line-height: 20px;;
+    
+}
+
+.center-info{
+    margin: 10px 20%;
+    
+}
+
+
+.bottom{
+
+
+}
+
+.center-info{
+    height:50px;
+    justify-content: center;
+
+    ol{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        list-style-type: none;
+        justify-content: center;
+        color: #4B99D1;
+    }
+
+}
